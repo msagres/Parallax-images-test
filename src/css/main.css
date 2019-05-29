@@ -13,7 +13,7 @@ html {
 }
 
 
-/* CONTAINER */
+/* CONTAINER* */
 .container {
     width: 100%;
     margin: 0 auto;
@@ -96,7 +96,7 @@ a {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-    #media{
+    .media{
         width: 100%;
     }
 }
