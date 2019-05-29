@@ -1,0 +1,94 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+    background-color: #F6F6F6;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+a {
+    letter-spacing: 0;
+}
+
+
+.container .tittle {
+    padding: 6rem;
+}
+
+.container h2 {
+    font-size: 4.5rem;
+    margin-right: -1rem;
+    color: #ffffff;
+    z-index: 10;
+    opacity: 0.8;
+    font-family: 'Asap', sans-serif;
+}
+
+.container h1 {
+    font-size: 4rem;
+    line-height: 0;
+    padding: 1rem 0;
+}
+
+.container h3 {
+    font-size: 5rem;
+    padding: 1rem 0;
+}
+
+.between {
+    height: 50rem;
+    position: relative;
+}
+
+.bg {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2rem 0;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .paris {
+    background: url('https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+}
+
+.container .rotterdam {
+    background: url('https://images.unsplash.com/photo-1519407710298-222d42b8cdc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80');
+}
+
+.container .berlin {
+    background: url('https://images.unsplash.com/photo-1546726747-421c6d69c929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+}
+
+.container .parallax {
+    width: 100%;
+    padding: 25rem 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
