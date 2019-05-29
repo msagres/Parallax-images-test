@@ -13,7 +13,7 @@ html {
 }
 
 
-
+/* CONTAINER */
 .container {
     width: 100%;
     margin: 0 auto;
@@ -91,4 +91,12 @@ a {
     background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    #media{
+        width: 100%;
+    }
 }
